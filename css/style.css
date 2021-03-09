@@ -1,0 +1,211 @@
+body {
+    font-family: helvetica;
+}
+::placeholder {
+    color: rgb(70, 70, 70);
+    text-align: center;
+}
+
+
+.nav-bar {
+    background-color: rgb(56, 56, 56);
+    padding-top: 10px;
+    
+    text-align: center;
+}
+
+.nav-bar .nav-list li {
+    margin-right: 10px;
+    display:inline-block;
+    list-style: none;
+}
+
+.nav-bar li a {
+    font-size: 20px;
+    color: grey;
+    text-decoration: none;
+    transition: 0.3s;
+    padding-bottom: 15px;
+}
+
+.nav-bar li a:hover {
+    color: honeydew;
+
+    border-bottom: 5px solid white;
+
+}
+
+.section {
+    max-height : auto;
+    overflow-y: auto;
+    
+    background-color: rgb(190, 190, 190);
+    height: 800px;
+}
+
+
+.section .company-form {
+    border: none;
+    outline: none;
+    align-items: center;
+    text-align: center;
+
+}
+.section .text-box {
+    margin-left: 335px;
+    margin-right: 335px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    
+    
+    width: auto;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    
+    
+    margin-bottom: 20px !important;
+    border-bottom: 1px solid rgb(56, 56, 56);;
+
+}
+
+.section .description {
+    background-color: rgb(197,197,197);
+    margin-left: 200px;
+    margin-right: 200px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    
+    
+    width: auto;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    
+    
+    margin-bottom: 20px !important;
+    
+    border-radius: 20px;
+}
+
+
+.section .text-box input{
+    width: 70%;
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(56, 56, 56);
+}
+
+.section .description input{
+    width: 70%;
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(56, 56, 56);
+}
+
+    #uniqueButton {
+        margin-left: 335px;
+        margin-right: 335px;
+        background: none;
+        color: rgb(56, 56, 56);;
+        width: 440px;
+        outline: none;
+        border: 2px solid rgb(56, 56, 56);
+        transition: 1s;
+    }
+
+    
+    #uniqueButton:hover{
+        background: rgb(56, 56, 56);
+        font-weight: bold;
+        color: rgb(197, 197, 197);
+        
+    }
+
+    table tr {
+        color: rgb(56, 56, 56);
+    }
+
+    table th, table td {
+        border-bottom: 1px solid rgb(56, 56, 56);
+        padding: 12px 15px;
+    }
+    
+    table {
+       
+        border-collapse: collapse;
+        width: 100%;
+        color: rgb(56, 56, 56);
+        font-family: monospace;
+        font-size: 20px;
+        text-align: left;
+        
+    
+    }
+
+    #selectButton {
+        border: solid 1px rgb(56, 56, 56);
+        color: rgb(56, 56, 56);
+        background: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-decoration: none;
+        border-radius: 10px;
+        transition: 1s;
+    }
+
+    #selectButton:hover {
+        background: rgb(56, 56, 56);
+        font-weight: bold;
+        color: rgb(197, 197, 197) !important;
+        width: 100%;
+    }
+
+
+
+.section a {
+    color: rgb(56, 56, 56);
+    border: solid 1px rgb(56, 56, 56);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.section a:hover {
+    background: rgb(56, 56, 56);
+    font-weight: bold;
+    color: rgb(197, 197, 197) !important;
+    width: 100%;
+}
+
+footer {
+    
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+    height: 81px;
+    background-color: rgb(56, 56, 56);
+}
+
+footer p {
+    color: white;
+
+}
+
+.errorText {
+    padding-top: 10px !important;
+    font-weight: bold;
+    color: rgb(56, 56, 56);
+    text-align: center;
+}
