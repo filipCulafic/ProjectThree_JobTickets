@@ -62,7 +62,6 @@ viewCurrentJobs($conn);
 
     ?>
 
-
             </table>
         </div>
         
